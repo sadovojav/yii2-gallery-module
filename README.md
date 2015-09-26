@@ -6,6 +6,8 @@
 - Make gallery template
 - Use inline widget
 
+![gallery](https://cloud.githubusercontent.com/assets/9282021/10119704/7a006796-64a5-11e5-8b3c-51046cb05f7b.jpg)
+
 ## Installation
 
 ### Composer
