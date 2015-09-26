@@ -1,5 +1,11 @@
 # Yii2 gallery
 
+#### Features:
+- Upload image
+- Drag image and change position
+- Make gallery template
+- Use inline widget
+
 ## Installation
 
 ### Composer
