@@ -1,0 +1,92 @@
+.modal-open {
+  padding: 0 !important;
+  overflow: inherit !important;
+}
+.image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.image.sortable-ghost {
+  opacity: 0.6;
+}
+.image.preload {
+  background-image: url("../images/preload.gif");
+  background-position: center bottom 10px;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+.image .wrapper {
+  border: 1px solid #ddd;
+}
+.image .wrapper .handle {
+  height: 175px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  cursor: move;
+}
+.image .wrapper .handle img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.image .wrapper .handle img.portrait {
+  width: 100%;
+  height: auto;
+}
+.image .wrapper .bottom {
+  padding: 5px;
+}
+.image .wrapper .bottom .actions {
+  text-align: right;
+  padding-top: 3px;
+}
+.image .wrapper .bottom .actions > button {
+  background: none;
+  border: 0;
+}
+.image .wrapper .bottom .actions i {
+  cursor: pointer;
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.image .wrapper .bottom .actions i:hover {
+  background: #e6e6e6;
+}
+.image .wrapper .bottom .actions .watch {
+  color: #000;
+}
+.image .wrapper .bottom .actions .edit {
+  color: #31708f;
+}
+.image .wrapper .bottom .actions .remove {
+  color: #a94442;
+}
+.file-preview-frame {
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+.file-preview-frame:hover {
+  box-shadow: none !important;
+}
+.file-preview-frame .file-upload-indicator {
+  height: 23px;
+}
+.file-preview-frame .file-upload-indicator:hover {
+  padding-top: 2px !important;
+  font-size: 1em !important;
+}
+.file-preview-frame .file-caption-name {
+  display: none;
+}
+.file-preview-frame .file-actions {
+  padding: 5px;
+}

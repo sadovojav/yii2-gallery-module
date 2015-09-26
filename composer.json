@@ -1,0 +1,30 @@
+{
+  "name": "sadovojav/yii2-gallery-module",
+  "description": "Yii2 gallery module",
+  "version": "1.0.0.0",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "gallery",
+    "module"
+  ],
+  "authors": [
+    {
+      "name": "Aleksandr Sadovoj",
+      "email": "sadovojav@gmail.com",
+      "homepage": "https://github.com/sadovojav"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "kartik-v/yii2-widgets": "*",
+    "kartik-v/yii2-grid": "*",
+    "sadovojav/yii2-inline-widgets-behavior": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "sadovojav\\gallery\\": ""
+    }
+  }
+}
