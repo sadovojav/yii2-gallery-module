@@ -14,9 +14,9 @@
 
 The preferred way to install this extension is through [Composer](http://getcomposer.org/).
 
-Either run ```php composer.phar require sadovojav/yii2-gallery-module ""dev-master"```
+Either run ```php composer.phar require sadovojav/yii2-gallery-module "dev-master"```
 
-or add ```"sadovojav/yii2-gallery-module": ""dev-master"``` to the require section of your ```composer.json```
+or add ```"sadovojav/yii2-gallery-module": "dev-master"``` to the require section of your ```composer.json```
 
 ### Migration
 
